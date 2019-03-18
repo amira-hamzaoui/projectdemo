@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'polymorphic',
+    'contract_template',
+    'contract_template_admin'
 ]
 
 MIDDLEWARE = [
