@@ -78,12 +78,8 @@ WSGI_APPLICATION = 'sgav_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'sgav_db',
-        'USER': 'sgav_user',
-        'PASSWORD': 'sgav;2019',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
