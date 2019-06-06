@@ -2,3 +2,8 @@
 db.sqlite3
 geckodriver.log
 virtualenv
+.idea/
+./static
+./media
+**/__pycache__/**
+*.pyc

@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polymorphic',
-    'contract_template',
-    'contract_template_admin'
+    'contract',
+    'contract_admin'
 ]
 
 MIDDLEWARE = [
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sgav_project.wsgi.application'
+WSGI_APPLICATION = "sgav_project.wsgi.application"
 
 
 # Database
