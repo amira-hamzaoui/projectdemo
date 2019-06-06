@@ -21,11 +21,9 @@ class ContractModelTest(TestCase):
     def test_create_contract(self):
 
         end_contrat_must_be = self.contract_template.start + timedelta(days=365)
-        print(self.contract_template.start)
-        print(end_contrat_must_be)
         self.assertIsNot(self.contract_template.end, end_contrat_must_be)
     def test_saison_count(self):
-        self.assertIsNot(self.contract_template.count_saison, 0)
+        self.assertIsNot(self.contract_template.count_season, 0)
 
     def test_unique_data_contract(self):
 
@@ -34,12 +32,9 @@ class ContractModelTest(TestCase):
         contacts = Contract.objects.filter(
             Q(start__in=dates) or Q(end__in=dates)
         )
-        print(contacts.values())
         self.assertNotEqual(contacts.count(), 0)
 
     def test_integrity_dates(self):
-        year_start = self.contract_template.start.year
-        self.assertNotEqual(self.contract_template.start.year,self.contract_template.year.name,
-                            msg="les date ne sont pas conforme à l'annnee du contrat")
-        self.assertNotEqual(self.contract_template.end.year,self.contract_template.year.name,
+        self.assertIn(self.contract_template.year,
+                      [self.contract_template.start.year, self.contract_template.end.year],
                             msg="les date ne sont pas conforme à l'annnee du contrat")
