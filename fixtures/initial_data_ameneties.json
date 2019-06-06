@@ -1,0 +1,218 @@
+[
+  {
+    "model": "common.amenety",
+    "pk": 1,
+    "fields": {
+      "name": "WI_FI",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 2,
+    "fields": {
+      "name": "COFFEE",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 3,
+    "fields": {
+      "name": "FRIDGE",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 4,
+    "fields": {
+      "name": "ENTERTAINMENT",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 5,
+    "fields": {
+      "name": "ROOM SERVICE",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 6,
+    "fields": {
+      "name": "COMPLIMENTARY BREAKFAST",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 7,
+    "fields": {
+      "name": "FIRE PLACE",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 8,
+    "fields": {
+      "name": "COFFEE",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk":9,
+    "fields": {
+      "name": "SWIMMING POOL",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 10,
+    "fields": {
+      "name": "AIR CONDITIONING",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 11,
+    "fields": {
+      "name": "WINE BAR",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 12,
+    "fields": {
+      "name": "SECURE VAULT",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 13,
+    "fields": {
+      "name": "PETS ALLOWED",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 14,
+    "fields": {
+      "name": "FREE PARKING",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 15,
+    "fields": {
+      "name": "HANDICAP ACCESSIBLE",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 16,
+    "fields": {
+      "name": "ELEVATOR IN BUILDING",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 17,
+    "fields": {
+      "name": "TELEVISION",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 18,
+    "fields": {
+      "name": "FITNESS FACILITY",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 19,
+    "fields": {
+      "name": "SMOKING ALLOWED",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 20,
+    "fields": {
+      "name": "PLAY PLACE",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 21,
+    "fields": {
+      "name": "CONFERENCE ROOM",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 22,
+    "fields": {
+      "name": "DOORMAN",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 23,
+    "fields": {
+      "name": "SUITABLE FOR EVENTS",
+      "status": true,
+      "default": true
+    }
+  },
+  {
+    "model": "common.amenety",
+    "pk": 24,
+    "fields": {
+      "name": "PICK AND DROP",
+      "status": true,
+      "default": true
+    }
+  }
+]
